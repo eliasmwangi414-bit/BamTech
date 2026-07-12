@@ -1462,7 +1462,12 @@ a.service-card:hover {
 /* Responsive */
 @media (max-width: 1024px) {
   .topbar { display: none; }
-  .navbar { height: 72px; }
+  .navbar {
+    height: 72px;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: var(--color-white);
+  }
   .nav-menu { display: none; }
   .nav-right { display: none; }
   .mobile-toggle { display: block; }
