@@ -226,10 +226,11 @@
 
       fetch('posts.json')
         .then(res => res.json())
-        .then(posts => {
+        .then(data => {
           if (loadingEl) loadingEl.remove();
 
-          if (!posts || posts.length === 0) {
+          const posts = data.posts || [];
+          if (posts.length === 0) {
             blogGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: var(--color-text-muted);">No blog posts found.</p>';
             return;
           }

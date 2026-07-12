@@ -244,10 +244,10 @@
         window.location.href = 'blog.html';
         return;
       }
-
       fetch('posts.json')
         .then(res => res.json())
-        .then(posts => {
+        .then(data => {
+          const posts = data.posts || [];
           const post = posts.find(p => p.slug === postSlug);
 
           if (!post) {
