@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Design Portfolio Kenya | Our Work | BamTech Web Solutions</title>
+  <meta name="description" content="View BamTech web design portfolio. We have built ecommerce stores, business websites, M-Pesa integrations, and web apps for clients across Kenya.">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* Hero/Header Section matching gurucrafts clean centered style */
+    .portfolio-header {
+      text-align: center;
+      padding: 100px 0 60px;
+      background: var(--color-white);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .portfolio-header h1 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      font-weight: 800;
+      color: var(--color-dark);
+      margin-bottom: 15px;
+      font-family: var(--font-headings);
+      letter-spacing: -0.02em;
+    }
+    .portfolio-header p {
+      font-size: 1.1rem;
+      color: var(--color-text-muted);
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Grid Area */
+    .portfolio-section {
+      padding: 80px 0;
+      background: var(--color-white);
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+    @media (max-width: 768px) {
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 15px;
+      }
+    }
+
+    /* Grid Item matching gurucrafts clean images that act as live links */
+    .portfolio-item {
+      display: block;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.4s ease;
+      background: var(--color-light);
+    }
+    .portfolio-item:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 38px rgba(0, 0, 0, 0.12);
+      border-color: rgba(58, 111, 255, 0.25);
+    }
+    .portfolio-img-wrap {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      position: relative;
+    }
+    .portfolio-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+    .portfolio-item:hover .portfolio-img {
+      transform: scale(1.03);
+    }
+
+    /* Trust seal matching the Featured on DesignRush note */
+    .trust-footer {
+      text-align: center;
+      padding: 40px 0 0;
+      border-top: 1px solid var(--color-border);
+      margin-top: 60px;
+      font-size: 1rem;
+      color: var(--color-text-muted);
+      font-weight: 600;
+    }
+    .trust-footer strong {
+      color: var(--color-dark);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link" aria-label="BamTech Home">
+        <img src="logo.png" alt="" class="logo-img">
+        <span class="logo-name">BamTech</span>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="index.html#why-us" class="nav-link">About Us</a></li>
+        <li class="nav-item has-dropdown">
+          <a href="index.html#services" class="nav-link">Web Design ▾</a>
+          <ul class="nav-dropdown">
+            <li><a href="web-design.html" class="dropdown-link">Web Design &amp; Development</a></li>
+            <li><a href="portfolio-design.html" class="dropdown-link">Portfolio Website Design</a></li>
+            <li><a href="ecommerce.html" class="dropdown-link">Ecommerce Website Design</a></li>
+            <li><a href="mpesa-integration.html" class="dropdown-link">M-Pesa API Integration</a></li>
+            <li><a href="pos-systems.html" class="dropdown-link">POS Billing Systems</a></li>
+            <li><a href="seo-ux.html" class="dropdown-link">SEO &amp; UX Optimization</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+        <li class="nav-item"><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="index.html#faq" class="nav-link">FAQs</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Centered Hero Header -->
+  <header class="portfolio-header">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <p>Bespoke digital solutions built with precision. Click on any of our projects below to view the live website.</p>
+    </div>
+  </header>
+
+  <!-- Main Showcase Grid -->
+  <section class="portfolio-section">
+    <div class="container">
+      <div class="portfolio-grid">
+
+        <!-- Mirror-It -->
+        <a href="https://mirrorit.co.ke" target="_blank" rel="noopener" class="portfolio-item reveal-on-scroll" aria-label="Visit Mirror-It Website">
+          <div class="portfolio-img-wrap">
+            <img src="portfolio_mirrorit.jpg" alt="Mirror-It Website Mockup" class="portfolio-img" loading="lazy">
+          </div>
+        </a>
+
+        <!-- E-Commerce -->
+        <a href="https://demo.bamtech.dev/ecommerce" target="_blank" rel="noopener" class="portfolio-item reveal-on-scroll" aria-label="Visit Kopesa E-Commerce Store">
+          <div class="portfolio-img-wrap">
+            <img src="portfolio_ecommerce.png" alt="Kopesa E-Commerce Store" class="portfolio-img" loading="lazy">
+          </div>
+        </a>
+
+        <!-- Safari Tours -->
+        <a href="https://demo.bamtech.dev/tours" target="_blank" rel="noopener" class="portfolio-item reveal-on-scroll" aria-label="Visit Safari Escapes Website">
+          <div class="portfolio-img-wrap">
+            <img src="portfolio_tours.png" alt="Safari Escapes Website" class="portfolio-img" loading="lazy">
+          </div>
+        </a>
+
+        <!-- POS Systems -->
+        <a href="https://demo.bamtech.dev/pos" target="_blank" rel="noopener" class="portfolio-item reveal-on-scroll" aria-label="Visit Pharmacy POS Software">
+          <div class="portfolio-img-wrap">
+            <img src="pos_hero_mockup.png" alt="Pharmacy POS Software" class="portfolio-img" loading="lazy">
+          </div>
+        </a>
+
+        <!-- Logistics -->
+        <a href="https://demo.bamtech.dev/logistics" target="_blank" rel="noopener" class="portfolio-item reveal-on-scroll" aria-label="Visit Raha Logistics Tracking App">
+          <div class="portfolio-img-wrap">
+            <img src="portfolio_logistics.png" alt="Raha Logistics Tracking App" class="portfolio-img" loading="lazy">
+          </div>
+        </a>
+
+      </div>
+
+      <!-- DesignRush and Trust Note -->
+      <div class="trust-footer">
+        We are proud to be featured on <strong>DesignRush</strong> for our outstanding digital work.
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+      <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo-link footer-logo-link" aria-label="BamTech Home">
+          <img src="logo.png" alt="BamTech" class="logo-img footer-logo-img">
+          <span class="logo-name footer-logo-name">BamTech</span>
+        </a>
+        <p class="footer-desc">Custom-coded responsive websites, online shops, systems, and M-Pesa Daraja integrations for growing brands. Hand-crafted in Kenya with speed, reliability, and security in mind.</p>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/company/bamtechnologies/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/bamtech_ke?igsh=MnJuc2M3NGY4MGJj" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="web-design.html">Web Design &amp; Development</a></li>
+          <li><a href="portfolio-design.html">Portfolio Website Design</a></li>
+          <li><a href="ecommerce.html">Ecommerce Website Design</a></li>
+          <li><a href="mpesa-integration.html">M-Pesa API Integration</a></li>
+          <li><a href="pos-systems.html">POS Billing Systems</a></li>
+          <li><a href="seo-ux.html">SEO &amp; UX Optimization</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#faq">FAQs</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Contact Info</h4>
+        <ul class="footer-links">
+          <li>Email: bamtechke@gmail.com</li>
+          <li>WhatsApp: 0718 000 273</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 BamTech Web Solutions. All rights reserved. | <a href="#">Privacy Policy</a></p>
+        <p><a href="#">Web Design Nairobi</a> &middot; <a href="#">Website Design Kenya</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init({ publicKey: "B-A-7O64khTGqtDGN" });</script>
+  <script src="main.js"></script>
+</body>
+</html>
