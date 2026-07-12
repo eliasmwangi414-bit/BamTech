@@ -1525,22 +1525,161 @@ a.service-card:hover {
 }
 
 @media (max-width: 576px) {
-  .services-grid {
-    grid-template-columns: 1fr;
+  /* General spacing */
+  .section-pad {
+    padding: 50px 0;
   }
-  .counters-grid {
-    grid-template-columns: 1fr;
+  .container {
+    padding: 0 16px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 90px 0 70px;
+    min-height: auto;
+    text-align: center;
+  }
+  .hero-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .hero-eyebrow {
+    justify-content: center;
+  }
+  .hero-title {
+    font-size: clamp(1.7rem, 7vw, 2.2rem);
+  }
+  .hero-desc {
+    font-size: 0.95rem;
+  }
+  .hero-trust {
+    justify-content: center;
   }
   .hero-buttons {
     flex-direction: column;
+    align-items: center;
+    gap: 12px;
   }
+  .hero-buttons .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* Services grid */
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Counters */
+  .counters-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .counter-number {
+    font-size: 2.2rem;
+  }
+
+  /* Pricing */
+  .pricing-grid {
+    max-width: 100%;
+  }
+  .pricing-toggle {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /* FAQ */
+  .faq-question {
+    font-size: 0.95rem;
+    padding: 16px 14px;
+  }
+
+  /* Contact form */
   .form-row {
     grid-template-columns: 1fr;
   }
   .contact-form-box {
-    padding: 24px;
+    padding: 24px 18px;
+  }
+  .contact-info h2,
+  .contact-form-box h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Blog grid — ensure cards never overflow */
+  .blog-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .blog-card-img {
+    height: 160px;
+    font-size: 2.5rem;
+  }
+
+  /* Blog post two-column stacking */
+  .post-container {
+    grid-template-columns: 1fr !important;
+    gap: 30px;
+  }
+  .blog-sidebar {
+    position: static !important;
+  }
+  .post-content h2 {
+    font-size: 1.35rem;
+  }
+  .post-content table {
+    font-size: 0.85rem;
+  }
+  .post-content th,
+  .post-content td {
+    padding: 8px 6px;
+  }
+
+  /* Portfolio */
+  .portfolio-header h1 {
+    font-size: 2rem;
+  }
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 8px;
+  }
+
+  /* Sub-hero pages */
+  .sub-hero {
+    padding: 70px 0 50px;
+  }
+  .sub-title {
+    font-size: 1.8rem !important;
+  }
+  .sub-desc {
+    font-size: 0.95rem;
+  }
+
+  /* Footer */
+  .footer-bottom {
+    font-size: 0.82rem;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  /* Floating buttons */
+  .btn-whatsapp-float {
+    bottom: 70px;
+    left: 16px;
+    width: 50px;
+    height: 50px;
+  }
+  .btn-scroll-top {
+    bottom: 16px;
+    right: 16px;
+    width: 38px;
+    height: 38px;
   }
 }
+
 
 /* Mobile dropdown */
 .nav-menu.open {
