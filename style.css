@@ -1,4 +1,4 @@
-/* ==========================================
+﻿/* ==========================================
    BamTech — Oracom-Replica Premium Theme
    Primary Blue: #3a6fff | Accent Green: #86c724 | Accent Gold: #f2a766
    Layout: White Background (Dominant)
@@ -386,7 +386,7 @@ img {
    ========================================== */
 .hero {
   position: relative;
-  background-image: linear-gradient(to right, rgba(15, 23, 42, 0.92) 0%, rgba(15, 23, 42, 0.75) 55%, rgba(15, 23, 42, 0.45) 100%), url('nairobi_web_developer.png');
+  background-image: linear-gradient(to right, rgba(15, 23, 42, 0.92) 0%, rgba(15, 23, 42, 0.75) 55%, rgba(15, 23, 42, 0.45) 100%), url('nairobi_web_developer.jpg');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1475,7 +1475,7 @@ a.service-card:hover {
   .hero {
     padding: 100px 0;
     min-height: auto;
-    background-image: linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.88)), url('nairobi_web_developer.png');
+    background-image: linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.88)), url('nairobi_web_developer.jpg');
     background-attachment: scroll;
     background-position: center top;
   }
