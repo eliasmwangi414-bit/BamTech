@@ -93,6 +93,16 @@
     .spec-item strong {
       color: var(--color-dark);
     }
+
+    @media (max-width: 991px) {
+      .details-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .spec-sidebar {
+        position: static;
+      }
+    }
   </style>
 </head>
 <body>
