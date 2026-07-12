@@ -18,6 +18,26 @@
     },
     {
       "title": "M-Pesa API Integration: How to Accept Payments on Your Website",
+{
+  "posts": [
+    {
+      "title": "How Much Does a Website Cost in Kenya? (2026 Price Guide)",
+      "slug": "blog-website-cost-kenya",
+      "date": "2026-07-12",
+      "description": "Looking to build a website in Kenya? Read our comprehensive 2026 guide on domain, hosting, development costs, and how to avoid getting overcharged.",
+      "image": "portfolio_ecommerce.jpg",
+      "body": "In the digital age, a professional website is a key driver for business growth in Kenya. Whether you are running a shop in Nairobi, a tour company in Mombasa, or a pharmacy in Nakuru, a website acts as your online storefront. But how much should you pay for a website in Kenya? Let's break down the actual costs.\n\n## Summary of Web Design Prices in Kenya\n\nDepending on the design style, complexity, and functions required, website prices can vary significantly. Here is a summary of average market prices:\n\n| Website Type | Average Price Range (KES) | Ideal For |\n|---|---|---|\n| **One-Page Portfolio / Landing Page** | KES 15,000 - KES 25,000 | Freelancers, CVs, simple product launches |\n| **Standard Business Website** | KES 35,000 - KES 60,000 | SMEs, consultants, law firms, clinics |\n| **Ecommerce Store (with M-Pesa)** | KES 45,000 - KES 120,000 | Retail brands, supermarkets, online pharmacies |\n| **Custom Software & Systems** | KES 120,000 - KES 250,000+ | Custom real estate platforms, ERPs, billing tools |\n\n## What Determines the Cost of a Website?\n\nWhen you get a quote from a web designer or agency in Kenya, the cost is typically broken down into three main categories:\n\n### 1. Domain Name Registration\nA domain name is your website's address (e.g., `yourbrand.co.ke` or `yourbrand.com`). \n- **.co.ke** domains cost between KES 800 and KES 1,500 per year.\n- **.com** domains cost between KES 1,200 and KES 2,000 per year.\n\n### 2. Web Hosting\nWeb hosting is the space on a server where your website's files are stored. The price varies depending on traffic capacity and performance requirements:\n- **Shared Hosting:** KES 2,500 to KES 6,000 per year (best for small business sites).\n- **VPS Hosting:** KES 15,000 to KES 40,000 per year (best for active ecommerce portals).\n\n### 3. Design & Custom Software Setup\nThis is where the actual code development comes in. Hand-coded sites or highly customized content systems require specialist developers. A secure, responsive layout takes anywhere from 5 days to a few weeks to engineer.\n\n## Choosing the Best Web Design Partner\n\nBe careful of quotes that seem too cheap (e.g., \"Websites for KES 5,000\"). Many of these use unlicenced template packages that load slowly and fail on mobile devices. Choose a partner that understands the local Kenyan market, integrates M-Pesa payment flows natively, and offers ongoing support packages.\n\nAt **BamTech**, we offer transparent pricing without any hidden charges. Contact us today to receive a customized quote for your business."
+    },
+    {
+      "title": "SEO in Kenya: How to Rank #1 on Google (2026 Roadmap)",
+      "slug": "blog-seo-kenya",
+      "date": "2026-07-12",
+      "description": "Ranking on the first page of Google is the most effective way to secure continuous, free organic leads for your business in Kenya. Here is a roadmap to achieve this.",
+      "image": "hero_team.jpg",
+      "body": "Ranking on the first page of Google is the most effective way to secure continuous, free organic leads for your business. When customers search for \"car hire Nairobi\" or \"best dentist in Eldoret,\" you want your website to be the first one they click. Here is a roadmap to achieve this using SEO in Kenya.\n\n## What is SEO?\n\nSEO (Search Engine Optimisation) is the process of improving your site to increase its visibility when people search for products or services related to your business in search engines like Google.\n\n## Step 1: Perform Local Keyword Research\n\nYou need to find out what search terms your customers are typing. Instead of targeting generic broad keywords like \"shoes,\" target localized terms like \"buy leather shoes in Nairobi\" or \"affordable online shoe shop Kenya.\" These long-tail keywords have higher purchase intent and are easier to rank for.\n\n## Step 2: Optimize Your On-Page SEO Elements\n\nOnce you have your target keywords, place them strategically on your site:\n- **Title Tag:** Place your main keyword at the beginning of the title tag.\n- **Meta Description:** Write a descriptive summary containing the keyword to entice clicks.\n- **Heading Tags:** Use H1, H2, and H3 headings to structure your content logically.\n- **Images:** Add keywords to image alt attributes so search engines understand the images.\n\n## Step 3: Register for Google My Business (GMB)\n\nIf you serve clients locally, GMB is crucial. It places your business on Google Maps and in the local search box. Fill in your business phone number, email, work hours, and encourage clients to leave positive reviews.\n\n## Step 4: Speed and Mobile Optimisation\n\nIn Kenya, the majority of users browse using mobile phones, often on mobile networks. Google prioritizes websites that load quickly on mobile devices. Ensure your code is optimized, images are compressed, and the layout is fully responsive.\n\n## Work with BamTech SEO Experts\n\nAt **BamTech**, we build SEO-friendly architectures from day one. All our websites are optimized for speed, semantic markup, and mobile responsiveness. Get in touch with us to boost your Google visibility."
+    },
+    {
+      "title": "M-Pesa API Integration: How to Accept Payments on Your Website",
       "slug": "blog-mpesa-integration",
       "date": "2026-07-12",
       "description": "M-Pesa is the undisputed king of payments in Kenya. If you own an ecommerce website or digital system, adding M-Pesa as a payment gateway is critical. Let's look at how it works.",
@@ -27,7 +47,10 @@
     {
       "title": "WhatsApp Chat Support Integration",
       "slug": "blog-whatsapp-chat-support",
-      "description": "In Kenya, WhatsApp is the primary channel for customer service. A customer may want to confirm if an item is in stock before placing an order. Having a floating WhatsApp button on your product pages lets customers chat with you instantly. This builds immediate trust and closes sales that might have otherwise been abandoned."
+      "date": "2026-07-12",
+      "description": "In Kenya, WhatsApp is the primary channel for customer service. A customer may want to confirm if an item is in stock before placing an order. Having a floating WhatsApp button on your product pages lets customers chat with you instantly. This builds immediate trust and closes sales that might have otherwise been abandoned.",
+      "image": "whatsapp_integration_mockup.png",
+      "body": "In Kenya, WhatsApp is the primary channel for customer service. A customer may want to confirm if an item is in stock before placing an order. Having a floating WhatsApp button on your product pages lets customers chat with you instantly. This builds immediate trust and closes sales that might have otherwise been abandoned.\n\n### Why Integrate WhatsApp Chat?\n- **Instant trust**: Customers can speak directly to a real person.\n- **Higher conversions**: Resolve customer objections in real time before checkout.\n- **Simple setup**: Integrates seamlessly with static sites and e-commerce stores."
     }
   ]
 }

@@ -269,11 +269,11 @@
           }
 
           document.querySelector('.post-title').textContent = post.title;
-          document.querySelector('.post-meta').innerHTML = `Written by BamTech Solutions Team &nbsp;·&nbsp; ${post.date}`;
+          document.querySelector('.post-meta').innerHTML = `Written by BamTech Solutions Team &nbsp;·&nbsp; ${post.date || 'July 12, 2026'}`;
           document.querySelector('.breadcrumb-current').textContent = post.title;
 
           // Parse markdown content
-          document.querySelector('.post-content').innerHTML = marked.parse(post.body);
+          document.querySelector('.post-content').innerHTML = marked.parse(post.body || '');
         })
         .catch(err => {
           console.error("Error fetching post data:", err);
