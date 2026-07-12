@@ -21,6 +21,6 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Slug (URL friendly, e.g. seo-guide)", name: "slug", widget: "string"}
               - {label: "Publish Date", name: "date", widget: "date"}
-              - {label: "Description / Excerpt", name: "description", widget: "text"}
-              - {label: "Featured Image", name: "image", widget: "image"}
-              - {label: "Article Body", name: "body", widget: "markdown"}
+              - {label: "Description / Excerpt", name: "description", widget: "text", required: false}
+              - {label: "Featured Image", name: "image", widget: "image", required: false}
+              - {label: "Article Body", name: "body", widget: "markdown", required: false}
